@@ -1,0 +1,123 @@
+.mobile-button {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    list-style: none;
+
+}
+
+.mobile-button li {
+    cursor: pointer;
+    padding: 10px 40px;
+    border: 1px solid #eee;
+    width: 33.33%;
+    font-weight: bold;
+
+}
+
+.mobile-button .active {
+    border-top: 2px solid #4DFF9E;
+
+}
+
+.mobile-card {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-right: 15px;
+    position: relative;
+    padding-top: 30px;
+
+
+
+}
+
+.mobile-card .card-body {
+    margin-top: 30px;
+}
+
+.mobile-card .card-body .card-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    padding-left: 25px;
+
+
+}
+
+.mobile-card .card-body .card-price h1 {
+    font-size: 48px;
+
+}
+
+.mobile-card .card-body .card-price p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.mobile-card .card-body .scheme-conatiner {
+    text-align: center;
+    padding: 15px 0px;
+    border-top: 1px solid #68EBD1;
+    border-bottom: 1px solid #68EBD1;
+    background-color: #EFFBF7;
+    font-weight: bold;
+    margin: 50px 0px;
+
+
+
+}
+
+.mobile-card .card-body .feature-section {
+    padding-left: 25px;
+
+
+
+}
+
+.mobile-card .card-body .feature-section p {
+    font-weight: bold;
+}
+
+.mobile-card .card-body .feature-section ul {
+    list-style: none;
+    margin-top: 25px;
+
+}
+
+.mobile-card .card-body .feature-section ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.mobile-card .card-body .feature-section ul li .tick {
+    color: rgb(59, 128, 59);
+    margin-right: 10px;
+}
+
+.mobile-card .card-footer {
+    text-align: center;
+    margin: 40px 0px;
+
+}
+
+.mobile-card .card-footer button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+
+}

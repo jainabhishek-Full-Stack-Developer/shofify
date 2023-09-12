@@ -1,0 +1,131 @@
+.card {
+    width: 350px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-right: 15px;
+    position: relative;
+
+
+}
+
+.card .active-tag {
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(46.87deg, #B1F5FA 0%, #4DFF9E 96.94%);
+    border-radius: 5px;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 4px;
+    font-size: 14px;
+}
+
+#active {
+    border: 2px solid #68EBD1;
+}
+
+.card .card-title {
+    padding-bottom: 10px;
+    padding: 25px;
+}
+
+.card .card-title h2 {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.card .card-title .sub-heading {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.card .card-title .sub-heading-title {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.card .card-body .card-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    padding-left: 25px;
+
+}
+
+.card .card-body .card-price h1 {
+    font-size: 48px;
+
+}
+
+.card .card-body .card-price p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.card .card-body .scheme-conatiner {
+    text-align: center;
+    padding: 15px 0px;
+    border-top: 1px solid #68EBD1;
+    border-bottom: 1px solid #68EBD1;
+    background-color: #EFFBF7;
+    font-weight: bold;
+    margin: 20px 0px;
+
+
+}
+
+.card .card-body .feature-section {
+    padding-left: 25px;
+
+
+}
+
+.card .card-body .feature-section p {
+    font-weight: bold;
+}
+
+.card .card-body .feature-section ul {
+    list-style: none;
+    margin-top: 25px;
+
+}
+
+.card .card-body .feature-section ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.card .card-body .feature-section ul li .tick {
+    color: rgb(59, 128, 59);
+    margin-right: 10px;
+}
+
+.card .card-footer {
+    text-align: center;
+    margin: 40px 0px;
+
+}
+
+.card .card-footer button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
